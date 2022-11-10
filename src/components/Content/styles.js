@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Container = styled.iframe`
   grid-area: content;
   width: 100%;
-  height: 100rem;
+  height: 800px;
 
-  background-color: #333;
+  margin-top: 15px;
 `
