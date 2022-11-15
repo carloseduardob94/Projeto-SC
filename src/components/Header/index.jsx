@@ -12,6 +12,7 @@ import { useState } from 'react'
 
 import Logo from '../../assets/logo-chapada2Asset-1-8-768x189.png'
 
+
 export function Header() {
   const [active, setActive] = useState(false)
   const [title, setTitle] = useState('Início')
